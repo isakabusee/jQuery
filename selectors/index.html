@@ -66,6 +66,12 @@
 
 
     </div>
+    <div id="wrapper">
+        <h3>Mouse Events</h3>
+        <button id="btn1">Button 1</button>
+        <button id="btn2">Button 2</button>
+    </div>
+
 
     <script>
         // $("h1").hide(); 
@@ -83,6 +89,13 @@
         // $("a[href]="http://yahoo.com"]").css("color", "black");
         // $("*").hide();
         // this is a wildcard. It will hide everything!
+        $("#btn1").click(function(){
+            alert('Button Clicked!');
+        });
+        $("#btn2").click(function(){
+            alert('You clicked second button!')
+        })
     </script>
+    
 </body>
 </html>
